@@ -171,11 +171,12 @@ namespace LinkedList
                 Console.WriteLine("Linked List is empty");
             }
             int size = Size();
-            Node current = this.head;
+            Node current =this.head;
+            Node index = null;
             int temp = 0;
             while (current != null)
             {
-                Node index = current.next;
+                index = current.next;
                while(index  != null) 
                 {
                     int a = current.data;
