@@ -148,7 +148,7 @@ namespace LinkedList
                 temp.next = next;
             Size();
         }
-        public void Size()
+        public int Size()
         {
             int count = 0;
             Node temp = this.head;
@@ -162,6 +162,37 @@ namespace LinkedList
                 temp = temp.next;
             }
             Console.WriteLine("Size is "+count);
+            return count;
+        }
+        public void Sort()
+        {
+            if (head == null)
+            {
+                Console.WriteLine("Linked List is empty");
+            }
+            int size = Size();
+            Node current = this.head;
+            int temp = 0;
+            while (current != null)
+            {
+                Node index = current.next;
+               while(index  != null) 
+                {
+                    int a = current.data;
+                    int b = index.data;
+                    if (a > b)
+                    {
+                        temp = a;
+                        a = b;
+                        b = temp;
+                    }
+                    current.data = a;
+                    index.data = b;
+                    index = index.next;
+                    current = current.next;
+                }
+
+            }
         }
 
     }

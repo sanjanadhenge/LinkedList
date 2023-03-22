@@ -23,10 +23,11 @@ namespace LinkedList
             //linkedListData.RemoveFirstElement();
             //linkedListData.Display();
             //linkedListData.RemoveLastNode();
-            int position1=linkedListData.Search(30);
-            linkedListData.Insert(position1, 40);
-            int position2 = linkedListData.Search(40);
-            linkedListData.DeleteNodeAtParticularPosition(position2-1);
+          //  int position1=linkedListData.Search(30);
+          //  linkedListData.Insert(position1, 40);
+          //  int position2 = linkedListData.Search(40);
+          //  linkedListData.DeleteNodeAtParticularPosition(position2-1);
+          linkedListData.Sort();
             linkedListData.Display();
 
 
