@@ -22,7 +22,8 @@ namespace LinkedList
             linkedListData.Display();
             //linkedListData.RemoveFirstElement();
             //linkedListData.Display();
-            linkedListData.RemoveLastNode();
+            //linkedListData.RemoveLastNode();
+            linkedListData.Search(30);
             linkedListData.Display();
 
 
