@@ -14,16 +14,17 @@ namespace LinkedList
              linkedListData.Add(56);
              linkedListData.Add(30);
              linkedListData.Add(70);
-             // linkedListData.AddReverse(70);
-            //linkedListData.AddReverse(30);
-           //linkedListData.AddReverse(56);
-          //linkedListData.Display();
-         // linkedListData.Insert(1, 30);
+               // linkedListData.AddReverse(70);
+              //linkedListData.AddReverse(30);
+             //linkedListData.AddReverse(56);
+            //linkedListData.Display();
+            // linkedListData.Insert(1, 30);
             linkedListData.Display();
             //linkedListData.RemoveFirstElement();
             //linkedListData.Display();
             //linkedListData.RemoveLastNode();
-            linkedListData.Search(30);
+            int position=linkedListData.Search(30);
+            linkedListData.Insert(position, 40);
             linkedListData.Display();
 
 
