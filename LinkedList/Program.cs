@@ -20,8 +20,11 @@ namespace LinkedList
           //linkedListData.Display();
          // linkedListData.Insert(1, 30);
             linkedListData.Display();
-            linkedListData.RemoveFirstElement();
+            //linkedListData.RemoveFirstElement();
+            //linkedListData.Display();
+            linkedListData.RemoveLastNode();
             linkedListData.Display();
+
 
 
 
