@@ -81,6 +81,15 @@ namespace LinkedList
             node1.next = prev.next;
             prev.next = node1;
         }
+        public void RemoveFirstElement()
+        {
+            if(this.head == null)
+            {
+                Console.WriteLine("List is Empty");
+            }
+
+            this.head = this.head.next;
+        }
 
     }
 }

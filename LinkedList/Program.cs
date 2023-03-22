@@ -11,16 +11,19 @@ namespace LinkedList
         static void Main(string[] args)
         {
             LinkedListData linkedListData = new LinkedListData();
-            linkedListData.Add(56);
+             linkedListData.Add(56);
+             linkedListData.Add(30);
              linkedListData.Add(70);
-            //linkedListData.Add(70);
-            // linkedListData.AddReverse(70);
+             // linkedListData.AddReverse(70);
             //linkedListData.AddReverse(30);
-            //linkedListData.AddReverse(56);
-            //linkedListData.Display();
-            linkedListData.Insert(1, 30);
+           //linkedListData.AddReverse(56);
+          //linkedListData.Display();
+         // linkedListData.Insert(1, 30);
             linkedListData.Display();
-            
+            linkedListData.RemoveFirstElement();
+            linkedListData.Display();
+
+
 
         }
     }
